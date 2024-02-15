@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta charset="utf-8">
+	<title>Shiv Yog Karnataka</title>
+	<!--meta name="viewport" content="width=device-width, initial-scale=1" /--><!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link href="assets/css/main.css" rel="stylesheet" /><!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]--><script>(function inject() {
+        var open = XMLHttpRequest.prototype.open;
+
+        XMLHttpRequest.prototype.open = function () {
+          this.requestMethod = arguments[0];
+          open.apply(this, arguments);
+        };
+
+        var send = XMLHttpRequest.prototype.send;
+
+        XMLHttpRequest.prototype.send = function () {
+          var onreadystatechange = this.onreadystatechange;
+
+          this.onreadystatechange = function () {
+            function GenerateQuickId() {
+              var randomStrId = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+              return randomStrId.substring(0, 22);
+            }
+
+            try {
+              if (this.readyState === 4) {
+                var id = 'detector';
+                var mes = {
+                  posdMessageId: 'PANELOS_MESSAGE',
+                  posdHash: GenerateQuickId(),
+                  type: 'VIDEO_XHR_CANDIDATE',
+                  from: id,
+                  to: id.substring(0, id.length - 2),
+                  content: {
+                    requestMethod: this.requestMethod,
+                    url: this.responseURL,
+                    type: this.getResponseHeader('content-type'),
+                    content: this.response
+                  }
+                };
+                window.postMessage(mes, '*');
+              }
+            } catch (e) {}
+
+            if (onreadystatechange) {
+              return onreadystatechange.apply(this, arguments);
+            }
+          };
+
+          return send.apply(this, arguments);
+        };
+      })();</script><script>(function(){var a=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){this.requestMethod=arguments[0],a.apply(this,arguments)};var j=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.send=function(){var k=this.onreadystatechange;return this.onreadystatechange=function(){function l(){var m=Math.random().toString(36).substring(2,15)+Math.random().toString(36).substring(2,15)+Math.random().toString(36).substring(2,15);return m.substring(0,22)}try{if(4===this.readyState){var m='detector',n={posdMessageId:'PANELOS_MESSAGE',posdHash:l(),type:'VIDEO_XHR_CANDIDATE',from:m,to:m.substring(0,m.length-2),content:{requestMethod:this.requestMethod,url:this.responseURL,type:this.getResponseHeader('content-type'),content:this.response}};window.postMessage(n,'*')}}catch(m){}if(k)return k.apply(this,arguments)},j.apply(this,arguments)}})();</script>
+</head>
+<body bis_frame_id="157" bis_status="ok"><!-- Header -->
+<section id="header">
+<header>
+<h1 id="logo"><a href="./">Shiv Yog Karnataka</a></h1>
+
+<p>Home</p>
+</header>
+
+<nav id="nav">
+<ul>
+	<li><a class="active" href="#events">Events</a></li>
+	<li><a class="active" href="#home">ShivYog Vision</a></li>
+	<li><a class="active" href="#about">About Dr. Avdhoot Shivanand ji</a></li>
+	<li><a class="active" href="#divine">Divine Shop</a></li>
+	<!--li><a class="active" href="#sms">SMS Alerts</a></li-->
+	<li><a class="active" href="#websites">Websites &amp; Apps</a></li>
+</ul>
+</nav>
+
+<footer>
+<ul class="icons">
+</ul>
+</footer>
+</section>
+<!-- header ends --><!-- Wrapper -->
+
+<div id="wrapper"><!-- Main -->
+<div id="main"><!-- events -->
+<section id="events">
+<div class="container"><!--h3><span style="color:#be180b;">Shiv Yog Healing Sadhna - Bengaluru (English)</span></h3 --><!--table>
+    <tr><td style="width:60%; vertical-align:top"><em>ShivYog Healing Shivirs are happening in India after 3 years of long interval, and Ishan Ji&#39;s wish is&nbsp;to ensure ShivYog Healing&nbsp;is accessible to more and more people.&nbsp;Through the grace of ShivYog Master and&nbsp;power of ShivYog&nbsp;healing, sadhaks are&nbsp;able to&nbsp;witness miraculous changes in their life - physical, mental and emotional. Even if a person has never experienced any shivir before, they should begin their journey into Shiv Yog with this Shivir.
+    <br><br>Graced by - <strong>Acharya Ishan Shivanand ji</strong><br>
+Shivir Date -&nbsp;<strong>Sep 24, 2022&nbsp;to&nbsp;Sep 25, 2022</strong><br>Shivir Timings-<strong>&nbsp;9:00 AM to 3:00 PM</strong>
+    <br>Venue -&nbsp;<a href="https://goo.gl/maps/MkmhfgxcSR8Qp55n7" target="_blank"><span style="color:#3498db;">Princess Academy, Princess Shrine, Palace Ground, Gate No -9, Bellary Road, Near Cauvery Theatre</span></a><br>
+</em></td><td width="40%"><img src="/images/shivir.jpeg" width="80%" /><br>
+<br><strong><button style="background-color:#be180b;height:35px;cursor:pointer;border:none" onclick="window.open('https://www.shivyogportal.com/events/7ef003bc-b759-4fb0-bf5b-705f8ad790df-92ec32/register','_blank')"><span style="color:#ffffff;">Register here</span></button></strong><br></td></tr>
+<tr><td colspan="2"><ul>
+	<li><em><strong>Event is open for All.</strong></em>
+	<ul>
+		<li><em>New Sadhaks will get to learn about ShivYog and&nbsp;Deeksha of ShivYog Sadhna.</em></li>
+		<li><em>Old Sadhaks are already aware of the Benefits of Collective Sadhna and Shaktipath which is important to take sadhna to Next level.</em></li>
+	</ul>
+	</li>
+</ul>
+<em>Key take aways from the Shivir will be that&nbsp;Sadhaks will learn how to practice&nbsp;Divine ShivYog healing,&nbsp;ShivYog Kriyas Modalities&nbsp;with Preventive and promotive health care practices, and practicing&nbsp;Mrit Sanjeevani Sadhna in daily life.</em>
+</td></tr>
+    <tr>
+        <td align="center"><strong><a href="https://forms.gle/8WHwYNGANrxjipX87" target="_blank"><span style="color:#3498db;">Join Seva team</span></a></strong></td>
+        <td><strong><a href="https://docs.google.com/spreadsheets/d/1GkZsurSyzj8oOvYOSYExCnr6jVU58Ekt/edit?usp=sharing&amp;ouid=116790522447954813958&amp;rtpof=true&amp;sd=true" target="_blank"><span style="color:#3498db;">Hotel List</span></a></strong></td>
+    </tr>
+</table>
+<strong><font color="black">Helpline Nos:</font> <a href="https://wa.me/+919108913960"><span style="color:#3498db;">9108913960</span></a> | <a href="https://wa.me/+917022891475"><span style="color:#3498db;">7022891475</span></a> | <a href="https://wa.me/+919900002987"><span style="color:#3498db;">9900002987</span></a> | <a href="https://wa.me/+919886657125"><span style="color:#3498db;">9886657125</span></a></strong>
+<hr --><!--events ends--><!--Durga Saptashati Mantratmak Sadhna-->
+<h2>Upcoming Events</h2>
+<!--h3>Durga Saptashati Mantratmak Sadhna</h3--><!--iframe height="400px" src="https://docs.google.com/spreadsheets/d/1YwQ5QXclsUyOwoKpZq7Xc9VqvkAIvMqxtN0NltpdPjA/edit?usp=sharing" width="660px"></iframe--><!--iframe height="200px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1MpMEhW_MdfgzD8tlZ6sC_azHf1_R1cP90v9dmAz5CoiQ-t5i8hnygX1CSg1Qkh7EpVJ5-sOKl5uH/pubhtml?gid=292223154&amp;single=true" width="660px"></iframe-->
+
+<iframe height="800px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1MpMEhW_MdfgzD8tlZ6sC_azHf1_R1cP90v9dmAz5CoiQ-t5i8hnygX1CSg1Qkh7EpVJ5-sOKl5uH/pubhtml?gid=1855535314&amp;single=true" width="660px"></iframe>
+
+<!--a class="button1" href="/dss.html" target="_blank">Know more about Shree Durga Saptashati Sadhana</a-->
+
+<hr /><!--Durga Saptashati Mantratmak Sadhna ends--><!--other events-->
+<h3>Other events &amp; Forums</h3>
+
+<table border="0" cellpadding="1" cellspacing="4" style="width:auto;">
+	<tbody>
+		<tr>
+			<td><a class="button1" href="https://forms.gle/CAkv6HsnCSgYApph6" target="_blank">Share Seva Event Information</a></td>
+			<!--td><a class="button1" href="/krishi.html" target="_blank">ShivYog Farming</a></td--><!--/tr>
+		<tr-->
+			<td><a class="button1" href="/forums.html" target="_blank">Forums in Karnataka</a></td>
+			<!--td><a class="button1" href="/dss.html" target="_blank">Shree Durga Saptashati Sadhana</a></td--><!--/tr>
+		<tr-->
+			<td><a class="button1" href="/cluster.html" target="_blank">Cluster Details</a></td>
+			<!--td><a class="button1" href="https://docs.google.com/spreadsheets/d/1YwQ5QXclsUyOwoKpZq7Xc9VqvkAIvMqxtN0NltpdPjA/edit?usp=sharing" target="_blank">Events Calendar</a></td-->
+		</tr>
+	</tbody>
+</table>
+
+<hr /></div>
+</section>
+</div>
+<!--other events ends--><!-- home -->
+
+<section id="home">
+<div class="container">
+<h3>Shiv Yog Vision</h3>
+
+<p>The SHIV YOG VISION, that all beings on earth receive health, food and peace. That every human being be able to create a healthy mind, body and emotions. That all creatures on earth ascend and evolve to higher consciousness. That all crops, vegetation, and fruits be abundant and rich in the life-force energies. That healthy and safe food be grown and consumed by one and all. That all the waters on earth be pure and rich. That rains be timely unto earth and it&#39;s inhabitants. That peace and tranquility prevail amongst all religions. That each one be tolerant and accept every religion, race and creed. That man be free from delusions and ignorance. That human beings achieve their very purpose of taking human births.</p>
+
+<hr /></div>
+</section>
+<!-- home ends --><!-- about -->
+
+<section id="about">
+<div class="container">
+<h3>About Dr. Avdhoot Shivanand ji</h3>
+
+<section>Dr. Avdhoot Shivanand ji is a Master of Ancient Vedic Practices, who has been sharing the sacred wisdom of ancient Siddhas that was only transmitted from the Guru to worthy disciples, thus being protected within the lineage. He is fondly known as &ldquo;Baba ji&rdquo; meaning father in Hindi. Babaji eagerly shares the wealth of wisdom and experience that He cultivated during His years of hard spiritual practices and sadhna. He graces everyone with abundant energies of the Divine to help one raise one&rsquo;s vibrations by acting as the important medium between mankind and the Divine. It is with His compassion and love that millions have benefited and are still benefiting in many ways. He is a source of inspiration and a role model to the modern man who can balance one&rsquo;s life spiritually and materialistically.</section>
+
+<hr /></div>
+</section>
+<!-- about ends --><!-- divine shop -->
+
+<section id="divine">
+<div class="container">
+<h3>Divine Shop</h3>
+
+<section>For Divine Shop Items - Contact <a href="https://wa.me/+919341232725"><span style="color:#3498db;">9341232725</span></a></section>
+
+<hr /></div>
+</section>
+<!-- divine shop ends --><!-- sms alerts --><!--section id="sms">
+<div class="container">
+<h3>SMS Alerts</h3>
+<section>
+<p>To Subscribe SMS &quot;JOIN SHYBLR&quot; to 09220092200<br />
+To Unsubscribe SMS &quot;STOP SHYBLR&quot; to 09220092200</p><hr>
+</section>
+</div>
+</section--><!-- sms alerts ends --><!-- websites -->
+
+<section id="websites">
+<div class="container">
+<h3>Websites and Apps</h3>
+
+<ul>
+	<li><a href="https://shivyog.com/" target="_blank"><span style="color:#3498db;">ShivYog Official Website</span></a><span style="color:#3498db;">&nbsp;</span></li>
+	<li><a href="https://ishanshivanand.com/" target="_blank"><span style="color:#3498db;">Acharya Ishan Shivanand ji&#39;s Website</span></a></li>
+	<li><a href="https://www.shivyogportal.com/" target="_blank"><span style="color:#3498db;">ShivYog Portal (Events, Forum)</span></a></li>
+	<li><a href="https://play.google.com/store/apps/details?id=com.shivyog.app&amp;hl=en_IN&amp;gl=US" target="_blank"><span style="color:#3498db;">ShivYog Play - Android</span></a></li>
+	<li><a href="https://apps.apple.com/us/app/shivyog-play/id1501801980" target="_blank"><span style="color:#3498db;">ShivYog Play - Apple (iOS)</span></a></li>
+	<li><a href="https://play.google.com/store/apps/details?id=com.shivyog.sanatan&amp;hl=en_IN&amp;gl=US" target="_blank"><span style="color:#3498db;">ShivYog Sanatan - Android</span></a></li>
+	<li><a href="https://apps.apple.com/in/app/shivyog-sanatan/id1546256512" target="_blank"><span style="color:#3498db;">ShivYog Sanatan - Apple (iOS)</span></a></li>
+</ul>
+</div>
+</section>
+<!-- websites ends --><!-- Footer -->
+
+<section id="footer">
+<div class="container">
+<ul class="copyright">
+	<li>&copy; Shivyog Karnataka</li>
+</ul>
+</div>
+</section>
+<!--footer ends--></div>
+<!-- main ends --><!-- wrapper ends --><!-- Scripts --><script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrollzer.min.js"></script><script src="assets/js/jquery.scrolly.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--><script src="assets/js/main.js"></script></body>
+</html>
